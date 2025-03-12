@@ -15,21 +15,22 @@ public partial class MathCalculation
 
     public decimal? Result { get; set; }
 
-
+    public string? FirebaseUuid { get; set; }
     public static MathCalculation Create(decimal? firstNumber, decimal? secondNumber, int? operation, decimal? result, string? firebaseUuid)
+{
+    if (operation == 4 && secondNumber == 0)
     {
-        if (operation == 4 && secondNumber == 0)
-        {
-            throw new ArgumentException("Cannot divide by zero.");
-        }
+        throw new ArgumentException("Cannot divide by zero.");
+    }
 
-        return new MathCalculation
-        {
-            FirstNumber = firstNumber,
-            SecondNumber = secondNumber,
-            Operation = operation,
-            Result = result,
-            // FirebaseUuid = firebaseUuid
-        };
+    return new MathCalculation
+    {
+        FirstNumber = firstNumber,
+        SecondNumber = secondNumber,
+        Operation = operation,
+        Result = result,
+        FirebaseUuid = firebaseUuid
+    };
+
     }
 }

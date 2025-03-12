@@ -229,3 +229,6 @@ C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\obj\Debug\n
 C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\obj\Debug\net9.0\MathApp.pdb
 C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\obj\Debug\net9.0\MathApp.genruntimeconfig.cache
 C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\obj\Debug\net9.0\ref\MathApp.dll
+C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\bin\Debug\net9.0\Firebase.Auth.dll
+C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\bin\Debug\net9.0\System.ServiceModel.dll
+C:\Users\lab_services_student\Desktop\Prog( SIR ONE)\MathApp\MathApp\bin\Debug\net9.0\Newtonsoft.Json.dll
